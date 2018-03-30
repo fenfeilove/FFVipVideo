@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15003B70206DCFB300D92AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003B6F206DCFB300D92AB3 /* AppDelegate.swift */; };
+		15003B72206DCFB300D92AB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003B71206DCFB300D92AB3 /* ViewController.swift */; };
+		15003B75206DCFB300D92AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15003B73206DCFB300D92AB3 /* Main.storyboard */; };
+		15003B78206DCFB300D92AB3 /* FFVipVideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15003B76206DCFB300D92AB3 /* FFVipVideo.xcdatamodeld */; };
+		15003B7A206DCFB300D92AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15003B79206DCFB300D92AB3 /* Assets.xcassets */; };
+		15003B7D206DCFB300D92AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15003B7B206DCFB300D92AB3 /* LaunchScreen.storyboard */; };
+		15003B88206DCFB300D92AB3 /* FFVipVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003B87206DCFB300D92AB3 /* FFVipVideoTests.swift */; };
+		15003B93206DCFB400D92AB3 /* FFVipVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003B92206DCFB400D92AB3 /* FFVipVideoUITests.swift */; };
+		15003C0A206DF84700D92AB3 /* FFLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003C09206DF84700D92AB3 /* FFLoginViewController.swift */; };
+		15003C11206E304100D92AB3 /* FFSegmentBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003C0F206E304100D92AB3 /* FFSegmentBarViewController.swift */; };
+		15003C12206E304100D92AB3 /* FFSegmentBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15003C10206E304100D92AB3 /* FFSegmentBarViewController.xib */; };
+		15003C14206E4EB800D92AB3 /* FFWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15003C13206E4EB800D92AB3 /* FFWebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15003B84206DCFB300D92AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15003B64206DCFB300D92AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15003B6B206DCFB300D92AB3;
+			remoteInfo = FFVipVideo;
+		};
+		15003B8F206DCFB300D92AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15003B64206DCFB300D92AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15003B6B206DCFB300D92AB3;
+			remoteInfo = FFVipVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15003B6C206DCFB300D92AB3 /* FFVipVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFVipVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15003B6F206DCFB300D92AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15003B71206DCFB300D92AB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15003B74206DCFB300D92AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15003B77206DCFB300D92AB3 /* FFVipVideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FFVipVideo.xcdatamodel; sourceTree = "<group>"; };
+		15003B79206DCFB300D92AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15003B7C206DCFB300D92AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15003B7E206DCFB300D92AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15003B83206DCFB300D92AB3 /* FFVipVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFVipVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15003B87206DCFB300D92AB3 /* FFVipVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFVipVideoTests.swift; sourceTree = "<group>"; };
+		15003B89206DCFB300D92AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15003B8E206DCFB300D92AB3 /* FFVipVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFVipVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15003B92206DCFB400D92AB3 /* FFVipVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFVipVideoUITests.swift; sourceTree = "<group>"; };
+		15003B94206DCFB400D92AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15003C09206DF84700D92AB3 /* FFLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFLoginViewController.swift; sourceTree = "<group>"; };
+		15003C0F206E304100D92AB3 /* FFSegmentBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFSegmentBarViewController.swift; sourceTree = "<group>"; };
+		15003C10206E304100D92AB3 /* FFSegmentBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FFSegmentBarViewController.xib; sourceTree = "<group>"; };
+		15003C13206E4EB800D92AB3 /* FFWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFWebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15003B69206DCFB300D92AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B80206DCFB300D92AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B8B206DCFB300D92AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15003B63206DCFB300D92AB3 = {
+			isa = PBXGroup;
+			children = (
+				15003B6E206DCFB300D92AB3 /* FFVipVideo */,
+				15003B86206DCFB300D92AB3 /* FFVipVideoTests */,
+				15003B91206DCFB400D92AB3 /* FFVipVideoUITests */,
+				15003B6D206DCFB300D92AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15003B6D206DCFB300D92AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15003B6C206DCFB300D92AB3 /* FFVipVideo.app */,
+				15003B83206DCFB300D92AB3 /* FFVipVideoTests.xctest */,
+				15003B8E206DCFB300D92AB3 /* FFVipVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15003B6E206DCFB300D92AB3 /* FFVipVideo */ = {
+			isa = PBXGroup;
+			children = (
+				15003B6F206DCFB300D92AB3 /* AppDelegate.swift */,
+				15003B71206DCFB300D92AB3 /* ViewController.swift */,
+				15003C09206DF84700D92AB3 /* FFLoginViewController.swift */,
+				15003C13206E4EB800D92AB3 /* FFWebViewController.swift */,
+				15003B73206DCFB300D92AB3 /* Main.storyboard */,
+				15003B79206DCFB300D92AB3 /* Assets.xcassets */,
+				15003B7B206DCFB300D92AB3 /* LaunchScreen.storyboard */,
+				15003B7E206DCFB300D92AB3 /* Info.plist */,
+				15003B76206DCFB300D92AB3 /* FFVipVideo.xcdatamodeld */,
+				15003C0F206E304100D92AB3 /* FFSegmentBarViewController.swift */,
+				15003C10206E304100D92AB3 /* FFSegmentBarViewController.xib */,
+			);
+			path = FFVipVideo;
+			sourceTree = "<group>";
+		};
+		15003B86206DCFB300D92AB3 /* FFVipVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				15003B87206DCFB300D92AB3 /* FFVipVideoTests.swift */,
+				15003B89206DCFB300D92AB3 /* Info.plist */,
+			);
+			path = FFVipVideoTests;
+			sourceTree = "<group>";
+		};
+		15003B91206DCFB400D92AB3 /* FFVipVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15003B92206DCFB400D92AB3 /* FFVipVideoUITests.swift */,
+				15003B94206DCFB400D92AB3 /* Info.plist */,
+			);
+			path = FFVipVideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15003B6B206DCFB300D92AB3 /* FFVipVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15003B97206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideo" */;
+			buildPhases = (
+				15003B68206DCFB300D92AB3 /* Sources */,
+				15003B69206DCFB300D92AB3 /* Frameworks */,
+				15003B6A206DCFB300D92AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFVipVideo;
+			productName = FFVipVideo;
+			productReference = 15003B6C206DCFB300D92AB3 /* FFVipVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15003B82206DCFB300D92AB3 /* FFVipVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15003B9A206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideoTests" */;
+			buildPhases = (
+				15003B7F206DCFB300D92AB3 /* Sources */,
+				15003B80206DCFB300D92AB3 /* Frameworks */,
+				15003B81206DCFB300D92AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15003B85206DCFB300D92AB3 /* PBXTargetDependency */,
+			);
+			name = FFVipVideoTests;
+			productName = FFVipVideoTests;
+			productReference = 15003B83206DCFB300D92AB3 /* FFVipVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15003B8D206DCFB300D92AB3 /* FFVipVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15003B9D206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideoUITests" */;
+			buildPhases = (
+				15003B8A206DCFB300D92AB3 /* Sources */,
+				15003B8B206DCFB300D92AB3 /* Frameworks */,
+				15003B8C206DCFB300D92AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15003B90206DCFB300D92AB3 /* PBXTargetDependency */,
+			);
+			name = FFVipVideoUITests;
+			productName = FFVipVideoUITests;
+			productReference = 15003B8E206DCFB300D92AB3 /* FFVipVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15003B64206DCFB300D92AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = fenfei;
+				TargetAttributes = {
+					15003B6B206DCFB300D92AB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+					15003B82206DCFB300D92AB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15003B6B206DCFB300D92AB3;
+					};
+					15003B8D206DCFB300D92AB3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 15003B6B206DCFB300D92AB3;
+					};
+				};
+			};
+			buildConfigurationList = 15003B67206DCFB300D92AB3 /* Build configuration list for PBXProject "FFVipVideo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15003B63206DCFB300D92AB3;
+			productRefGroup = 15003B6D206DCFB300D92AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15003B6B206DCFB300D92AB3 /* FFVipVideo */,
+				15003B82206DCFB300D92AB3 /* FFVipVideoTests */,
+				15003B8D206DCFB300D92AB3 /* FFVipVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15003B6A206DCFB300D92AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15003B7D206DCFB300D92AB3 /* LaunchScreen.storyboard in Resources */,
+				15003B7A206DCFB300D92AB3 /* Assets.xcassets in Resources */,
+				15003C12206E304100D92AB3 /* FFSegmentBarViewController.xib in Resources */,
+				15003B75206DCFB300D92AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B81206DCFB300D92AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B8C206DCFB300D92AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15003B68206DCFB300D92AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15003B72206DCFB300D92AB3 /* ViewController.swift in Sources */,
+				15003B70206DCFB300D92AB3 /* AppDelegate.swift in Sources */,
+				15003C11206E304100D92AB3 /* FFSegmentBarViewController.swift in Sources */,
+				15003C0A206DF84700D92AB3 /* FFLoginViewController.swift in Sources */,
+				15003B78206DCFB300D92AB3 /* FFVipVideo.xcdatamodeld in Sources */,
+				15003C14206E4EB800D92AB3 /* FFWebViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B7F206DCFB300D92AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15003B88206DCFB300D92AB3 /* FFVipVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15003B8A206DCFB300D92AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15003B93206DCFB400D92AB3 /* FFVipVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15003B85206DCFB300D92AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15003B6B206DCFB300D92AB3 /* FFVipVideo */;
+			targetProxy = 15003B84206DCFB300D92AB3 /* PBXContainerItemProxy */;
+		};
+		15003B90206DCFB300D92AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15003B6B206DCFB300D92AB3 /* FFVipVideo */;
+			targetProxy = 15003B8F206DCFB300D92AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15003B73206DCFB300D92AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15003B74206DCFB300D92AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15003B7B206DCFB300D92AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15003B7C206DCFB300D92AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15003B95206DCFB400D92AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15003B96206DCFB400D92AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15003B98206DCFB400D92AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FFVipVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15003B99206DCFB400D92AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = FFVipVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15003B9B206DCFB400D92AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFVipVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFVipVideo.app/FFVipVideo";
+			};
+			name = Debug;
+		};
+		15003B9C206DCFB400D92AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFVipVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFVipVideo.app/FFVipVideo";
+			};
+			name = Release;
+		};
+		15003B9E206DCFB400D92AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFVipVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFVipVideo;
+			};
+			name = Debug;
+		};
+		15003B9F206DCFB400D92AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FFVipVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fenfei.FFVipVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFVipVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15003B67206DCFB300D92AB3 /* Build configuration list for PBXProject "FFVipVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15003B95206DCFB400D92AB3 /* Debug */,
+				15003B96206DCFB400D92AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15003B97206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15003B98206DCFB400D92AB3 /* Debug */,
+				15003B99206DCFB400D92AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15003B9A206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15003B9B206DCFB400D92AB3 /* Debug */,
+				15003B9C206DCFB400D92AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15003B9D206DCFB400D92AB3 /* Build configuration list for PBXNativeTarget "FFVipVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15003B9E206DCFB400D92AB3 /* Debug */,
+				15003B9F206DCFB400D92AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		15003B76206DCFB300D92AB3 /* FFVipVideo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				15003B77206DCFB300D92AB3 /* FFVipVideo.xcdatamodel */,
+			);
+			currentVersion = 15003B77206DCFB300D92AB3 /* FFVipVideo.xcdatamodel */;
+			path = FFVipVideo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 15003B64206DCFB300D92AB3 /* Project object */;
+}
